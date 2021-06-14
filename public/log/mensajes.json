@@ -1,0 +1,68 @@
+{
+	"entities": {
+		"autores": {
+			"ale@mail.com": {
+				"nombre": "Alejandro",
+				"apellido": "Ramos",
+				"email": "ale@mail.com",
+				"edad": "66",
+				"alias": "ale2020",
+				"avatar": "14"
+			},
+			"juan@mail.com": {
+				"nombre": "Juan",
+				"apellido": "Gonzalez",
+				"email": "juan@mail.com",
+				"edad": "33",
+				"alias": "juan",
+				"avatar": "100"
+			}
+		},
+		"mensajes": {
+			"06/14/2021 20:26:00": {
+				"mensaje": "Hola, que tal",
+				"fecha": "06/14/2021 20:26:00",
+				"autor": "ale@mail.com"
+			},
+			"06/14/2021 20:26:51": {
+				"mensaje": "Hola, como estas",
+				"fecha": "06/14/2021 20:26:51",
+				"autor": "juan@mail.com"
+			},
+			"06/14/2021 20:27:01": {
+				"mensaje": "Bien",
+				"fecha": "06/14/2021 20:27:01",
+				"autor": "ale@mail.com"
+			},
+			"06/14/2021 20:27:06": {
+				"mensaje": "Y vos?",
+				"fecha": "06/14/2021 20:27:06",
+				"autor": "ale@mail.com"
+			},
+			"06/14/2021 20:27:20": {
+				"mensaje": "Muy bien, gracias!",
+				"fecha": "06/14/2021 20:27:20",
+				"autor": "juan@mail.com"
+			},
+			"06/14/2021 20:28:13": {
+				"mensaje": "😀",
+				"fecha": "06/14/2021 20:28:13",
+				"autor": "juan@mail.com"
+			}
+		},
+		"chat": {
+			"0": {
+				"id": "0",
+				"mensajes": [
+					"06/14/2021 20:26:00",
+					"06/14/2021 20:26:51",
+					"06/14/2021 20:27:01",
+					"06/14/2021 20:27:06",
+					"06/14/2021 20:27:20",
+					"06/14/2021 20:28:13"
+				]
+			}
+		}
+	},
+	"result": "0"
+}

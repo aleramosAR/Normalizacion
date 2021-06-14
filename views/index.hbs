@@ -1,0 +1,29 @@
+<h3 class='mb-5'>Centro de mensajes</h3>
+<div class='row'>
+	<div class='col-sm-12 col-md-5 col-lg-4'>
+		<form onSubmit='return addMensaje(this)' class='mb-5'>
+			<div class='form-row'>
+				<div class='col-12'>
+					<input type='text' name='nombre' id='nombre' class='form-control mb-1' placeholder='nombre...' />
+          <input type='text' name='apellido' id='apellido' class='form-control mb-1' placeholder='apellido...' />
+          <input type="email" name='email' id='email' class='form-control mb-1' placeholder='email...' />
+          <input type="number" name='edad' id='edad' class='form-control mb-1' placeholder='edad...' />
+          <input type='text' name='alias' id='alias' class='form-control mb-1' placeholder='alias...' />
+          <input type='number' name='avatar' id='avatar' class='form-control mb-1' placeholder='avatar...' />
+					<small class="text-black-50">Para el avatar ingresar un n&deg; del 1 al 300</small>
+				</div>
+			</div>
+			<div class='form-row mt-4'>
+				<div class='col-8'>
+					<input type='text' name=='mensaje' id='mensaje' class='form-control' placeholder='Ingresa tu mensaje...' />
+				</div>
+				<div class='col-4'>
+					<input type='submit' class='btn btn-primary col-12' value='Enviar' />
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class='col-sm-12 col-md-7 col-lg-8'>
+    <div id='mensajes'></div>
+  </div>
+</div>

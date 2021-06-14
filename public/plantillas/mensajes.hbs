@@ -1,0 +1,25 @@
+{{#if mensajes.length}}
+<div class="chat">
+  <ul class="mensajes">
+    {{#each mensajes}}
+      <li>
+        <div class="img">
+          <img src="https://picsum.photos/id/{{this.autor.avatar}}/50" />
+        </div>
+        <div class="msg">
+          <p><strong>{{this.autor.nombre}} {{this.autor.apellido}}</strong> <span>{{this.fecha}}</span></p>
+          <p class="txt">{{this.mensaje}}</p>
+        </div>
+      </li>
+    {{/each}}
+    </ul>
+  {{else}}
+    <div class="nomensajes">
+      No hay mensajes
+    </div>
+  {{/if}}
+</div>
+<div class="card p-2 chat-bottom">
+  <p class="small mb-0">Compresión de mensajes: <strong class="text-success">{{porcentaje}}%</strong></p>
+  <button class="btn btn-sm btn-danger" onclick="return clearMensajes()">Borrar mensajes</button>
+</div>
